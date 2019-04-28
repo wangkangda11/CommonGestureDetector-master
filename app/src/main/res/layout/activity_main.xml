@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context="com.chenzhifei.gesture.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/laylout_dm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/xibeidm_map"
+            android:background="@mipmap/xibeidm_map"
+            android:layout_width="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="move\nrotate\nscale"
+            android:textSize="60dp"
+            android:textColor="#555"
+            android:layout_gravity="center" />
+    </RelativeLayout>
+
+
+</FrameLayout>
